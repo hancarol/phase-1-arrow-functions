@@ -17,9 +17,6 @@ describe("index.js", () => {
     let x = 2
     expect(square(x)).to.equal(4)
   })
-
-  it("has an arrow function called add", () => {
-    expect(add).to.exist
   })
 
   it("add arrow function takes two parameters and adds them together", () => {
@@ -27,4 +24,4 @@ describe("index.js", () => {
     let b = 4
     expect(add(a,b)).to.equal(a+b)
   })
-})
+
